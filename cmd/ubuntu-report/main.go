@@ -8,9 +8,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/ubuntu/ubuntu-report/internal/sender"
-	"github.com/ubuntu/ubuntu-report/internal/utils"
-	"github.com/ubuntu/ubuntu-report/pkg/sysmetrics"
+	"github.com/matthew-hagemann/ubuntu-report/internal/sender"
+	"github.com/matthew-hagemann/ubuntu-report/internal/utils"
+	"github.com/matthew-hagemann/ubuntu-report/pkg/sysmetrics"
 )
 
 // generate README, shell completion and manpages

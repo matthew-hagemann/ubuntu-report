@@ -5,5 +5,5 @@ export GOFLAGS=-mod=vendor
 
 rm -rf /tmp/src/github.com/ubuntu/
 mkdir -p /tmp/src/github.com/ubuntu/
-cp -a . /tmp/src/github.com/ubuntu/ubuntu-report
+cp -a . /tmp/src/github.com/matthew-hagemann/ubuntu-report
 

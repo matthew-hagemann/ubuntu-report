@@ -13,9 +13,9 @@ import (
 
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/ubuntu/ubuntu-report/internal/metrics"
-	"github.com/ubuntu/ubuntu-report/internal/sender"
-	"github.com/ubuntu/ubuntu-report/internal/utils"
+	"github.com/matthew-hagemann/ubuntu-report/internal/metrics"
+	"github.com/matthew-hagemann/ubuntu-report/internal/sender"
+	"github.com/matthew-hagemann/ubuntu-report/internal/utils"
 )
 
 // optOutJSON is the data sent in case of Opt-Out choice

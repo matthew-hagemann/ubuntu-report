@@ -1,4 +1,4 @@
-module github.com/ubuntu/ubuntu-report
+module github.com/matthew-hagemann/ubuntu-report
 
 require (
 	github.com/cpuguy83/go-md2man v1.0.10 // indirect

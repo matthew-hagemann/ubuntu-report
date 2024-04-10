@@ -7,9 +7,9 @@ Build-Depends: debhelper (>= 11),
                golang-go (>= 2:1.10~),
                tzdata,
 Standards-Version: 4.1.2
-XS-Go-Import-Path: github.com/ubuntu/ubuntu-report
-Homepage: https://github.com/ubuntu/ubuntu-report
-Vcs-Git: https://github.com/ubuntu/ubuntu-report.git
+XS-Go-Import-Path: github.com/matthew-hagemann/ubuntu-report
+Homepage: https://github.com/matthew-hagemann/ubuntu-report
+Vcs-Git: https://github.com/matthew-hagemann/ubuntu-report.git
 
 Package: ubuntu-report
 Architecture: any

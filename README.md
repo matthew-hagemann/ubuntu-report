@@ -3,13 +3,13 @@ Report hardware and other collected metrics like installer or upgrade informatio
 
 This information can't be used to identify a single machine and is presented before being sent to the server.
 
-[![Build & Tests Status](https://travis-ci.org/ubuntu/ubuntu-report.svg?branch=master)](https://travis-ci.org/ubuntu/ubuntu-report)
-[![codecov](https://codecov.io/gh/ubuntu/ubuntu-report/branch/master/graph/badge.svg)](https://codecov.io/gh/ubuntu/ubuntu-report)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ubuntu/ubuntu-report)](https://goreportcard.com/report/github.com/ubuntu/ubuntu-report)
+[![Build & Tests Status](https://travis-ci.org/matthew-hagemann/ubuntu-report.svg?branch=master)](https://travis-ci.org/matthew-hagemann/ubuntu-report)
+[![codecov](https://codecov.io/gh/matthew-hagemann/ubuntu-report/branch/master/graph/badge.svg)](https://codecov.io/gh/matthew-hagemann/ubuntu-report)
+[![Go Report Card](https://goreportcard.com/badge/github.com/matthew-hagemann/ubuntu-report)](https://goreportcard.com/report/github.com/matthew-hagemann/ubuntu-report)
 
 APIS:
- * Go: [![Go API](https://godoc.org/github.com/ubuntu/ubuntu-report?status.svg)](https://godoc.org/github.com/ubuntu/ubuntu-report/pkg/sysmetrics)
- * C: [![C API](https://godoc.org/github.com/ubuntu/ubuntu-report?status.svg)](https://godoc.org/github.com/ubuntu/ubuntu-report/pkg/sysmetrics/C)
+ * Go: [![Go API](https://godoc.org/github.com/matthew-hagemann/ubuntu-report?status.svg)](https://godoc.org/github.com/matthew-hagemann/ubuntu-report/pkg/sysmetrics)
+ * C: [![C API](https://godoc.org/github.com/matthew-hagemann/ubuntu-report?status.svg)](https://godoc.org/github.com/matthew-hagemann/ubuntu-report/pkg/sysmetrics/C)
 
 
 ## About
@@ -147,12 +147,12 @@ The service won't be active once the pending report is sent.
 ### Go API
 
 The Go API is used by the command line, but can be embedded as well by 3rd parties. Doc reference is available at
-[![this link](https://godoc.org/github.com/ubuntu/ubuntu-report?status.svg)](https://godoc.org/github.com/ubuntu/ubuntu-report/pkg/sysmetrics).
+[![this link](https://godoc.org/github.com/matthew-hagemann/ubuntu-report?status.svg)](https://godoc.org/github.com/matthew-hagemann/ubuntu-report/pkg/sysmetrics).
 
 ### C API
 
 The C API is provided for embedding the library in C code. Doc reference is available at
-[![this link](https://godoc.org/github.com/ubuntu/ubuntu-report?status.svg)](https://godoc.org/github.com/ubuntu/ubuntu-report/pkg/sysmetrics/C).
+[![this link](https://godoc.org/github.com/matthew-hagemann/ubuntu-report?status.svg)](https://godoc.org/github.com/matthew-hagemann/ubuntu-report/pkg/sysmetrics/C).
 
 You can generate the shared library and headers by running `go generate`.
 

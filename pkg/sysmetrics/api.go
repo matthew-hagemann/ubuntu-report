@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/ubuntu/ubuntu-report/internal/metrics"
+	"github.com/matthew-hagemann/ubuntu-report/internal/metrics"
 )
 
 // ReportType define the desired kind of interaction in CollectAndSend()

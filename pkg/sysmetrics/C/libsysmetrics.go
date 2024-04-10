@@ -14,7 +14,7 @@ typedef enum {
 import "C"
 
 import (
-	"github.com/ubuntu/ubuntu-report/pkg/sysmetrics"
+	"github.com/matthew-hagemann/ubuntu-report/pkg/sysmetrics"
 )
 
 // generate shared library and header

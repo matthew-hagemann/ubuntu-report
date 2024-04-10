@@ -17,8 +17,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ubuntu/ubuntu-report/internal/helper"
-	"github.com/ubuntu/ubuntu-report/internal/metrics"
+	"github.com/matthew-hagemann/ubuntu-report/internal/helper"
+	"github.com/matthew-hagemann/ubuntu-report/internal/metrics"
 )
 
 var Update = flag.Bool("update", false, "update golden files")

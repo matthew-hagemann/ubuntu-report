@@ -23,7 +23,7 @@ override_dh_auto_clean:
 override_dh_auto_build:
 	dh_auto_build
 	# move shell completion, man pages and shared lib
-	mv $(builddir)/src/github.com/ubuntu/ubuntu-report/build $(artefactsdir)
+	mv $(builddir)/src/github.com/matthew-hagemann/ubuntu-report/build $(artefactsdir)
 	mv $(artefactsdir)/bash-completion $(artefactsdir)/ubuntu-report
 	mv $(artefactsdir)/zsh-completion $(artefactsdir)/_ubuntu-report
 	rm $(builddir)/bin/C

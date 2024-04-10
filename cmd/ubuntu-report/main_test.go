@@ -14,7 +14,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ubuntu/ubuntu-report/internal/helper"
+	"github.com/matthew-hagemann/ubuntu-report/internal/helper"
 )
 
 const (

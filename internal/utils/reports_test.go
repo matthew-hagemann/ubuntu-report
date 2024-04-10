@@ -5,8 +5,8 @@ import (
 	"os/user"
 	"testing"
 
-	"github.com/ubuntu/ubuntu-report/internal/helper"
-	"github.com/ubuntu/ubuntu-report/internal/utils"
+	"github.com/matthew-hagemann/ubuntu-report/internal/helper"
+	"github.com/matthew-hagemann/ubuntu-report/internal/utils"
 )
 
 func TestReportPath(t *testing.T) {

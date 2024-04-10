@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ubuntu/ubuntu-report/internal/helper"
+	"github.com/matthew-hagemann/ubuntu-report/internal/helper"
 )
 
 /*

@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ubuntu/ubuntu-report/internal/helper"
-	"github.com/ubuntu/ubuntu-report/internal/sender"
+	"github.com/matthew-hagemann/ubuntu-report/internal/helper"
+	"github.com/matthew-hagemann/ubuntu-report/internal/sender"
 )
 
 func TestGetURL(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/ubuntu/ubuntu-report/internal/utils"
+	"github.com/matthew-hagemann/ubuntu-report/internal/utils"
 )
 
 func (m Metrics) getGPU() []gpuInfo {

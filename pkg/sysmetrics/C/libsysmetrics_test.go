@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ubuntu/ubuntu-report/internal/helper"
+	"github.com/matthew-hagemann/ubuntu-report/internal/helper"
 )
 
 // The actual test functions are in non-_test.go files

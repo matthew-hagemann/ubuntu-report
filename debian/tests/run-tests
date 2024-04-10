@@ -2,5 +2,5 @@
 set -e
 . debian/tests/setup
 
-go test github.com/ubuntu/ubuntu-report/...
+go test github.com/matthew-hagemann/ubuntu-report/...
 

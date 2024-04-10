@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ubuntu/ubuntu-report/internal/helper"
-	"github.com/ubuntu/ubuntu-report/pkg/sysmetrics"
+	"github.com/matthew-hagemann/ubuntu-report/internal/helper"
+	"github.com/matthew-hagemann/ubuntu-report/pkg/sysmetrics"
 )
 
 func TestCollect(t *testing.T) {

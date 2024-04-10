@@ -4,7 +4,7 @@ import (
 	"os/exec"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/ubuntu/ubuntu-report/internal/helper"
+	"github.com/matthew-hagemann/ubuntu-report/internal/helper"
 )
 
 // WithRootAt tweaks the root directory of the file system

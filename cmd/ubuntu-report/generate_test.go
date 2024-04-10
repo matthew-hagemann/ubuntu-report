@@ -13,7 +13,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
-	"github.com/ubuntu/ubuntu-report/internal/helper"
+	"github.com/matthew-hagemann/ubuntu-report/internal/helper"
 )
 
 /*

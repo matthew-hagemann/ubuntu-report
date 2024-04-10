@@ -7,7 +7,7 @@ description: |
   .
   Those information can't be used to identify a single machine and are
   presented before being sent to the server.
-  More details on https://github.com/ubuntu/ubuntu-report
+  More details on https://github.com/matthew-hagemann/ubuntu-report
 grade: stable
 confinement: classic
 base: core18
@@ -21,7 +21,7 @@ parts:
   cli:
     source: .
     plugin: go
-    go-importpath: github.com/ubuntu/ubuntu-report
+    go-importpath: github.com/matthew-hagemann/ubuntu-report
     override-build: |
       snapcraftctl build
       GOPATH=`pwd`/../go/ go generate cmd/ubuntu-report/generate_test.go
@@ -33,5 +33,5 @@ parts:
     plugin: nil
     after: [cli]
     override-build: |
-      cd ../../cli/go/src/github.com/ubuntu/ubuntu-report
+      cd ../../cli/go/src/github.com/matthew-hagemann/ubuntu-report
       GOPATH=`pwd`/../../../.. go test ./...
